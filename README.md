@@ -1,7 +1,7 @@
 
 # MERN Stack CRUD Exam for Intern Student
 
-Welcome to the **MERN Stack** CRUD Exam! This exam is designed to test your understanding and proficiency in building a full-stack web application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The exam will assess your ability to create, read, update, and delete data from a database, as well as your knowledge of RESTful APIs, routing, and basic frontend development with React.js.
+Welcome to the **MERN Stack CRUD Exam!** This exam is designed to test your understanding and proficiency in building a full-stack web application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The exam will assess your ability to create, read, update, and delete data from a database, as well as your knowledge of RESTful APIs, routing, and basic frontend development with React.js.
 
 ## Instructions
 
