@@ -7,14 +7,13 @@ Welcome to the **MERN Stack CRUD Exam!** This exam is designed to test your unde
 
 Please read the following instructions carefully before starting the exam:
 
-1.  Fork this repository to your own GitHub account.
-2.  Clone the forked repository to your local machine.
-3.  Ensure that you have MongoDB, Node.js, and npm (Node Package Manager) installed on your system.
-4.  Navigate to the project directory and install the required dependencies by running `npm install` in the terminal.
-5.  Create a `.env` file in the root directory and provide the necessary environment variables (such as database connection URL, secret keys, etc.).
-6.  Implement the required features described below.
-7.  Commit and push your changes to your GitHub repository.
-8.  Send the link to your GitHub repository to the exam administrator.
+1.  Clone the repository to your local machine.
+2.  Ensure that you have MongoDB, Node.js, and npm (Node Package Manager) installed on your system.
+3.  Navigate to the project directory and install the required dependencies by running `npm install` in the terminal.
+4.  Create a `.env` file in the root directory and provide the necessary environment variables (such as database connection URL, secret keys, etc.).
+5.  Implement the required features described below.
+6.  Commit and push your changes to your GitHub repository.
+7.  Send the link to your GitHub repository to the exam administrator.
 
 ## Exam Requirements
 
