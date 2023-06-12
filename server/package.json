@@ -1,0 +1,31 @@
+{
+  "name": "orange-summer-challenge-23-01",
+  "version": "1.0.0",
+  "description": "Welcome to the **MERN Stack CRUD Exam!** This exam is designed to test your understanding and proficiency in building a full-stack web application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The exam will assess your ability to create, read, update, and delete data from a database, as well as your knowledge of RESTful APIs, routing, and basic frontend development with React.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odc-student/orange-summer-challenge-23-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odc-student/orange-summer-challenge-23-01/issues"
+  },
+  "homepage": "https://github.com/odc-student/orange-summer-challenge-23-01#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.2.3",
+    "nodemon": "^2.0.22"
+  }
+}
