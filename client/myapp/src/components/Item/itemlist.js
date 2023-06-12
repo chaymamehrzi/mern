@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate,Link } from 'react-router-dom';
+
 import axios from 'axios';
 import './itemList.css';
 
@@ -58,8 +60,11 @@ const ItemList = () => {
             <p className="item-date">{new Date(item.createdAt).toLocaleString()}</p>
           </div>
           <div className="card-footer">
-            <button className="edit-button" onClick={() => handleEditItem(item._id)}>Edit</button>
+          <Link to="/edit/:id" className="link">
+            <button className="edit-button">Edit</button>
+            </Link>
             <button className="delete-button" onClick={() => handleDeleteItem(item._id)}>Delete</button>
+            
           </div>
         </div>
       ))}

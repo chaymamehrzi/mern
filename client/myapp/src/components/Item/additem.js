@@ -31,22 +31,23 @@ const Form = ({ fetchItems }) => {
   };
 
   return (
-    <div>
-      {error && <div>{error}</div>}
-      {success && <div>{success}</div>}
-      <div>
-        <label>Title:</label>
-        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+    <div className="form-container">
+      {error && <div className="error-message">{error}</div>}
+      {success && <div className="success-message">{success}</div>}
+      <div className="form-group">
+        <label htmlFor="title">Title:</label>
+        <input id="title" type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
       </div>
-      <div>
-        <label>Description:</label>
-        <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
+      <div className="form-group">
+        <label htmlFor="description">Description:</label>
+        <input id="description" type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
       </div>
-      <Link to="/list">
-      <button onClick={handleCreateItem}>Add Item</button>
+      <Link to="/list" className="link">
+        <button className="add-item-button" onClick={handleCreateItem}>Add Item</button>
       </Link>
     </div>
   );
-};
+
+}
 
 export default Form;

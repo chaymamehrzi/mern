@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import { useNavigate,Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -7,7 +8,9 @@ const Home = () => {
       <div className="content">
         <h1>Welcome to Orange Summer Challenger</h1>
         <p></p>
+        <Link to="/login">
         <button className="cta-button">Please Log In</button>
+        </Link>
       </div>
     </div>
   );
