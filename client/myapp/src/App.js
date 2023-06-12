@@ -15,9 +15,8 @@ function App() {
       <Route path="/signup" exact element={<Signup/>} />
 			<Route path="/add" exact element={<Form/>} />
       <Route path="/list" exact element={<ItemList/>} />
-      <Route path="/edit/:itemId" component={ItemEdit} />
+      <Route path='/edit/:id' element={<ItemEdit />} />
       <Route path="*"  exact element={<NotFound/>} />
-
    </Routes>
   );
 }
