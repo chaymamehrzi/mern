@@ -19,7 +19,7 @@ const Form = ({ fetchItems }) => {
     }
 
     try {
-      const response = await axios.post('http://localhost:8000/item/additem', { title, description });
+      const response = await axios.post('http://localhost:8003/item/additem', { title, description });
       setSuccess('Item added!');
       setTitle('');
       setDescription('');

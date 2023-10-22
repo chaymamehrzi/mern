@@ -13,7 +13,7 @@ const ItemList = () => {
 
   const fetchItems = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/item/getitem');
+      const response = await axios.get('http://localhost:8003/item/getitem');
       setItems(response.data);
     } catch (error) {
       console.log(error);
@@ -26,7 +26,7 @@ const ItemList = () => {
 
     if (updatedTitle && updatedDescription) {
       try {
-        await axios.put(`http://localhost:8000/item/update/${id}`, {
+        await axios.put(`http://localhost:8003/item/update/${id}`, {
           title: updatedTitle,
           description: updatedDescription,
         });
@@ -40,7 +40,7 @@ const ItemList = () => {
   const handleDeleteItem = async (id) => {
     if (window.confirm('Are you sure you want to delete this item?')) {
       try {
-        await axios.delete(`http://localhost:8000/item/delete/${id}`);
+        await axios.delete(`http://localhost:8003/item/delete/${id}`);
         fetchItems();
       } catch (error) {
         console.log(error);

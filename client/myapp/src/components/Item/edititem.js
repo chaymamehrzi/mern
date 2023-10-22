@@ -14,7 +14,7 @@ function ItemEdit(props) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/item/updateitem/${id}`)
+      .get(`http://localhost:8003/item/updateitem/${id}`)
       .then((res) => {
         setItem({
           title: res.data.title,
@@ -39,7 +39,7 @@ function ItemEdit(props) {
     };
 
     axios
-      .put(`http://localhost:8000/item/updateitem/${id}`, data)
+      .put(`http://localhost:8003/item/updateitem/${id}`, data)
       .then((res) => {
         navigate(`/list`);
       })

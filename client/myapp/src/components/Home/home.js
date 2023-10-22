@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="content">
-        <h1>Welcome to Orange Summer Challenger</h1>
+        <h1>Welcome to Microservice Project</h1>
         <p></p>
         <Link to="/login">
         <button className="cta-button">Please Log In</button>
